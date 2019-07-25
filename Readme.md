@@ -1,6 +1,6 @@
 <div style="float:left;margin:0 10px 10px 0" markdown="1">
 
-![Logo](Media/Amazon-SkillLogo_75px.png)
+![Logo](./Media/Amazon-SkillLogo_75px.png)
 
 </div>
 
@@ -11,7 +11,7 @@ Wir veröffentlichen hier den Code für die SelectLine Skill für Alexa. Die Ski
 ## Beispielanfragen
 <div style="float:right;margin:0 10px 10px 0" markdown="1">
 
-![Beispielanfrage](Media/Frage-01.png)
+![Beispielanfrage](./Media/Frage-01.png)
 
 </div>
 
@@ -42,3 +42,5 @@ https://demo.slmobile.de/demoapi/help
 
 In dieser Demo sind Demodaten hinterlegt. Man kann diese Daten auch über die Demo Installation von SelectLine Mobile anschauen:
 https://demo.slmobile.de/demo/
+
+![Logo](./Media/Amazon-SkillLogo_75px.png)
