@@ -1,0 +1,199 @@
+{
+  "interactionModel": {
+    "languageModel": {
+      "invocationName": "selectline",
+      "intents": [
+        {
+          "name": "SLInfoIntent",
+          "slots": [],
+          "samples": [
+            "erzähl mir was zu selectline",
+            "was ist selectline",
+            "was über SelectLine",
+            "sag mit was interessantes über SelectLine",
+            "sag mit was interessantes"
+          ]
+        },
+        {
+          "name": "AMAZON.CancelIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.HelpIntent",
+          "samples": [
+            "hilfe",
+            "ich brauche hilfe"
+          ]
+        },
+        {
+          "name": "DefaultIntent",
+          "slots": [],
+          "samples": [
+            "Standard"
+          ]
+        },
+        {
+          "name": "AMAZON.StopIntent",
+          "samples": [
+            "stop",
+            "Auf wiedersehen"
+          ]
+        },
+        {
+          "name": "InfoIntent",
+          "slots": [],
+          "samples": [
+            "welche version",
+            "sag mir die aktuelle version"
+          ]
+        },
+        {
+          "name": "AMAZON.NavigateHomeIntent",
+          "samples": []
+        },
+        {
+          "name": "ArticleIntent",
+          "slots": [
+            {
+              "name": "articlenumber",
+              "type": "AMAZON.NUMBER"
+            }
+          ],
+          "samples": [
+            "Artikelnummer {articlenumber}",
+            "Welchen Namen hat der Artikel {articlenumber}"
+          ]
+        },
+        {
+          "name": "StorageIntent",
+          "slots": [
+            {
+              "name": "articlename",
+              "type": "AMAZON.SearchQuery"
+            },
+            {
+              "name": "articlenumber",
+              "type": "AMAZON.NUMBER"
+            }
+          ],
+          "samples": [
+            "wie viele {articlename} haben wir auf Lager",
+            "wie viele {articlename} sind auf Lager",
+            "was ist der Lagerbestand vom {articlename}",
+            "wie viel {articlename} haben wir auf Lager",
+            "wie viel {articlename} sind auf Lager",
+            "was ist der Lagerbestand von {articlename}",
+            "was ist der Lagerbestand für eine {articlename}",
+            "was ist der Lagerbestand für einen {articlename}",
+            "lager {articlename}",
+            "Lagerbestand {articlename}",
+            "Lagerbestand für Artikelnummer {articlenumber}"
+          ]
+        },
+        {
+          "name": "TipsIntent",
+          "slots": [],
+          "samples": [
+            "Erzähl mir einen Tip",
+            "Sag mir einen Tip",
+            "Hast du einen Tipp für mich"
+          ]
+        },
+        {
+          "name": "PriceIntent",
+          "slots": [
+            {
+              "name": "customarticlename",
+              "type": "ArticleNameSlotType"
+            },
+            {
+              "name": "articlenumber",
+              "type": "AMAZON.NUMBER"
+            },
+            {
+              "name": "amount",
+              "type": "AMAZON.NUMBER"
+            }
+          ],
+          "samples": [
+            "was kostet ein {customarticlename}",
+            "was kostet {amount} {customarticlename}",
+            "wie viel kostet {amount} {customarticlename}",
+            "was ist der Preis für {amount} {customarticlename}",
+            "wie viel kosten {amount} {customarticlename}",
+            "was kosten {amount} {customarticlename}",
+            "was kostet Artikelnummer {articlenumber}"
+          ]
+        },
+        {
+          "name": "ArticleListIntent",
+          "slots": [
+            {
+              "name": "number",
+              "type": "AMAZON.NUMBER"
+            }
+          ],
+          "samples": [
+            "kannst du mir {number} artikel sagen",
+            "nenne mir {number} artikel",
+            "welche artikel gibt es",
+            "welche artikel hast du",
+            "nenne mir artikel"
+          ]
+        }
+      ],
+      "types": [
+        {
+          "name": "ArticleNameSlotType",
+          "values": [
+            {
+              "name": {
+                "value": "Aufliege"
+              }
+            },
+            {
+              "name": {
+                "value": "Auflage"
+              }
+            },
+            {
+              "name": {
+                "value": "Liege"
+              }
+            },
+            {
+              "name": {
+                "value": "Blumentopf"
+              }
+            },
+            {
+              "name": {
+                "value": "Weide"
+              }
+            },
+            {
+              "name": {
+                "value": "Haus"
+              }
+            },
+            {
+              "name": {
+                "value": "Blumenerde"
+              }
+            },
+            {
+              "name": {
+                "value": "Rasenmäher"
+              }
+            },
+            {
+              "name": {
+                "value": "Sessel"
+              }
+            }
+          ]
+        }
+      ]
+    }
+  }
+}
