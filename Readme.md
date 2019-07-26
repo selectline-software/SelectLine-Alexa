@@ -1,19 +1,11 @@
-<div style="float:left;margin:0 10px 10px 0" markdown="1">
-
-![Logo](./Media/Amazon-SkillLogo_75px.png)
-
-</div>
+<img align="left" src="./Media/Amazon-SkillLogo_75px.png" style="margin-right:30px;">
 
 # Alexa Demo für die SelectLine API
 # 
 Wir veröffentlichen hier den Code für die SelectLine Skill für Alexa. Die Skill lässt Alexa einfache Fragen nach Preisen und Lagerbestand aus einer SelectLine Warenwirtschaft beantworten. Dazu wird über die SelectLine API auf eine Demo-Installation zugegriffen.
 
 ## Beispielanfragen
-<div style="float:right;margin:0 10px 10px 0" markdown="1">
-
-![Beispielanfrage](./Media/Frage-01.png)
-
-</div>
+<img align="right" src="./Media/Frage-01.png">
 
 Man startet die Skill mittels:
 - *"Alexa starte SelectLine"*
