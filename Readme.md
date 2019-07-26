@@ -1,7 +1,6 @@
 <img align="left" src="./Media/Amazon-SkillLogo_75px.png" style="margin-right:30px;">
 
 # Alexa Demo für die SelectLine API
-# 
 Wir veröffentlichen hier den Code für die SelectLine Skill für Alexa. Die Skill lässt Alexa einfache Fragen nach Preisen und Lagerbestand aus einer SelectLine Warenwirtschaft beantworten. Dazu wird über die SelectLine API auf eine Demo-Installation zugegriffen.
 
 ## Beispielanfragen
@@ -34,5 +33,3 @@ https://demo.slmobile.de/demoapi/help
 
 In dieser Demo sind Demodaten hinterlegt. Man kann diese Daten auch über die Demo Installation von SelectLine Mobile anschauen:
 https://demo.slmobile.de/demo/
-
-![Logo](./Media/Amazon-SkillLogo_75px.png)
